@@ -38,7 +38,7 @@ function App() {
   return (
     <main className='bg-[url("/public/img/backgroundheader.png")] min-h-screen text-white'>
       <header className='flex  justify-center px-3 '>
-        <div className='bg-cover bg-no-repeat bg-bottom bg-[url("/public/img/DecorativeHeader.png")]'><img className='mb-[4rem] ' src="public/img/nombre1.png" alt="" /></div>
+        <div className='bg-cover bg-no-repeat bg-bottom bg-[url("/public/img/DecorativeHeader.png")]'><img className='mb-[4rem] ' src="/public/img/nombre1.png" alt="" /></div>
       </header>
     <LocationForm handleSubmit={handleSubmit} />
     <LocationInfo currentLocation={currentLocation} />
