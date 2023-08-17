@@ -15,7 +15,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault()
     const newLocation = e.target.newLocation.value 
-    fetchDimension(newLocation)
+    if(newLocation) fetchDimension(newLocation)
   }
 
 
